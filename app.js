@@ -1,6 +1,7 @@
-const name = require("./second")
-const sayHi = require("./first")
+const {john, peter} = require("./second")
+const { sayHi } = require("./utils");
+// const { john } = require("./second")
 
 
-sayHi(name.john)
-sayHi(name.peter)
+sayHi(john)
+sayHi(peter)
